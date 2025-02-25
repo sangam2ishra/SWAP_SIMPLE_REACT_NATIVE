@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "swap_simple",
+    "slug": "swap_simple",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "flex":1,
+      "resizeMode": "cover", 
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app requires access to your photo library to upload images."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "resizeMode": "cover", 
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": ["CAMERA", "CAMERA_ROLL"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "16e43c89-2974-4755-8cb6-a208146412aa"
+      }
+    },
+    "scheme": "exp"  
+  }
+}
